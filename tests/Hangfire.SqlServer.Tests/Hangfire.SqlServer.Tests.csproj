@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net452;netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
@@ -23,11 +23,11 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp2.1'">
-    <PackageReference Include="System.Data.SqlClient" Version="4.5.0" />    
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />    
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.1'">
-    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />    
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />    
   </ItemGroup>
 
   <ItemGroup>
